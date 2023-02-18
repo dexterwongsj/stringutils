@@ -1,7 +1,6 @@
 package stringutils
 
 import {
-  "fmt"
   "strings"
 }
 
