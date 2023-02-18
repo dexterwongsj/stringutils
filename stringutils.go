@@ -1,12 +1,6 @@
 package stringutils
 
-import {
-  "strings"
-}
-
-type StringUtils struct {
-
-}
+import "strings"
 
 func Upper(val string) (string) {
   return strings.ToUpper(val)
