@@ -2,10 +2,10 @@ package stringutils
 
 import "strings"
 
-func Upper(val string) (string) {
+func Upper(val string) string {
   return strings.ToUpper(val)
 }
 
-func Lower(val string) (string) {
+func Lower(val string) string {
   return strings.ToLower(val)
 }
